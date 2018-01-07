@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist, :genre
 
@@ -25,6 +27,7 @@ class Song
     @@artists = []
     artist_array = []
     @@artists.each do |artist|
+      binding.pry
       if !(artist_array.include?(artist))
         artist_array << artist
       end
