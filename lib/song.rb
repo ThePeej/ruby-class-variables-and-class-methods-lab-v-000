@@ -17,9 +17,17 @@ class Song
   end
 
   def self.genres
-    
-    @@genres #counts only unique genres
+
+    @@genres #returns only unique genres
 
   end
+
+  def self.artists
+
+    @@artists #returns array of unique artists
+
+  end
+
+  
 
 end
