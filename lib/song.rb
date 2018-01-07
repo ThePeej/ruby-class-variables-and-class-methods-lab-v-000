@@ -29,7 +29,6 @@ class Song
 
     artist_array = []
     @@artists.each do |artist|
-      binding.pry
       if !(artist_array.include?(artist))
         artist_array << artist
       end
