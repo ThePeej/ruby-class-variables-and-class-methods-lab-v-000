@@ -50,6 +50,7 @@ class Song
         artist_count[artist] = @@artists.count(artist)
         binding.pry
     end
+    artist_count
   end
-  artist_count
+  
 end
