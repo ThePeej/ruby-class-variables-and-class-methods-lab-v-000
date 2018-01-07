@@ -21,12 +21,16 @@ class Song
   end
 
   def self.genres
-    #returns only unique genres
-
+    genre_array = []
+    @@genres.each do |genre|
+      if !(genre_array.include?(genre))
+        genre_array << genre
+      end
+    end
+    genre_array
   end
 
   def self.artists
-
     artist_array = []
     @@artists.each do |artist|
       if !(artist_array.include?(artist))
