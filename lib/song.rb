@@ -28,6 +28,8 @@ class Song
 
   end
 
-  
+  def self.genre_count
+    #returns hash in which keys are genre and values are number of songs per genre
+  end
 
 end
