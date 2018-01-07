@@ -51,5 +51,5 @@ class Song
         binding.pry
     end
   end
-  artist_count
+  artist_count.sort
 end
