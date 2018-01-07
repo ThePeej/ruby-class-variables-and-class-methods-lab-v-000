@@ -48,9 +48,8 @@ class Song
     artist_count = {}
       self.artists.sort.each do |artist|
         artist_count[artist] = @@artists.count(artist)
-        binding.pry
     end
     artist_count
   end
-  
+
 end
