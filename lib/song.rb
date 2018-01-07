@@ -13,18 +13,20 @@ class Song
   end
 
   @@count = 0
-
+  @@artists = []
+  @@genres = []
+  
   def self.count
     @@count
   end
 
   def self.genres
-    @@genres = [] #returns only unique genres
+    #returns only unique genres
 
   end
 
   def self.artists
-    @@artists = []
+    
     artist_array = []
     @@artists.each do |artist|
       binding.pry
