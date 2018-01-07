@@ -18,13 +18,13 @@ class Song
 
   def self.genres
 
-    @@genres #returns only unique genres
+    @@genres = [] #returns only unique genres
 
   end
 
   def self.artists
 
-    @@artists #returns array of unique artists
+    @@artists = []#returns array of unique artists
 
   end
 
