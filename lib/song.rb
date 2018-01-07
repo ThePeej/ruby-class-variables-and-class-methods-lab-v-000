@@ -49,7 +49,7 @@ class Song
     artist_count = {}
     binding.pry
     self.artists.each do |artist|
-      artist_count[artist] => @@artists.count(artist)
+      artist_count[artist] = @@artists.count(artist)
     end
   end
 
