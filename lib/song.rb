@@ -4,7 +4,7 @@ class Song
   def initliaze(name,artist,genre)
     @name = name
     @artist = artist
-    @genre = genre
+    @genre = genre      bgfhyrhnyrfn bf b b   ghg b bh bg bvg gv v v b v
     @@count += 1
   end
 
