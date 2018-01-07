@@ -15,7 +15,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genres = []
-  
+
   def self.count
     @@count
   end
@@ -26,7 +26,7 @@ class Song
   end
 
   def self.artists
-    
+
     artist_array = []
     @@artists.each do |artist|
       binding.pry
