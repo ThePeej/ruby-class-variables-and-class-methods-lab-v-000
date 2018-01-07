@@ -48,6 +48,7 @@ class Song
   def self.artist_count
     artist_count = {}
     self.arists.each do |artist|
+      binding.pry
       artist_count[artist] => @@artists.count(artist)
     end
   end
